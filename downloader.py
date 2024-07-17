@@ -12,7 +12,7 @@ def download_video():
     
     ydl_opts = {
         'format': 'best',
-        'outtmpl': './%(title)s.%(ext)s',
+        'outtmpl': '.videos/%(title)s.%(ext)s',
     }
 
     try:
